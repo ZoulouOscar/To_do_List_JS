@@ -21,7 +21,6 @@ async function main() {
     const response = await main(); // Attendre que main() se résolve et renvoie le json
 
         const test = new toDo(response);
-        console.log(test);
         const btn = document.querySelector('#ajouter');
         const  ul = document.querySelector('ul');
         const btnDone = document.querySelector('button[data-filter="done"]');
